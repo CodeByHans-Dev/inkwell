@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Inkwell · Manga Story Library
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Zen+Maru+Gothic:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div id="progress">
+  </div>
+  <header>
+   <nav aria-label="Main" class="nav">
+    <a class="logo" href="index.html">
+     墨 Inkwell
+    </a>
+    <button aria-expanded="false" aria-label="Menu" class="menu-btn">
+     ☰
+    </button>
+    <ul>
+     <li>
+      <a href="index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="index.html#library">
+       Library
+      </a>
+     </li>
+     <li>
+      <a href="about.html">
+       About
+      </a>
+     </li>
+     <li>
+      <button aria-label="Toggle ink mode" class="btn small" id="theme">
+       Ink mode
+      </button>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <section class="hero">
+   <div class="burst">
+    <h1>
+     Inkwell
+    </h1>
+    <p>
+     30 one-chapter stories in manga style. Pick a cover and start reading.
+    </p>
+    <a class="btn" href="#library">
+     Browse stories
+    </a>
+   </div>
+  </section>
+  <main>
+   <section id="library">
+    <h2 class="sect">
+     Story Library
+    </h2>
+    <div class="tools">
+     <label class="sr" for="q">
+      Search
+     </label>
+     <input id="q" placeholder="Search title or author" type="search"/>
+     <div class="chips">
+      <button class="chip on" data-g="All">
+       All
+      </button>
+      <button class="chip" data-g="Action">
+       Action
+      </button>
+      <button class="chip" data-g="Romance">
+       Romance
+      </button>
+      <button class="chip" data-g="Fantasy">
+       Fantasy
+      </button>
+      <button class="chip" data-g="Horror">
+       Horror
+      </button>
+      <button class="chip" data-g="Sci-Fi">
+       Sci-Fi
+      </button>
+      <button class="chip" data-g="Mystery">
+       Mystery
+      </button>
+      <button class="chip" data-g="Slice of Life">
+       Slice of Life
+      </button>
+      <button class="chip" data-g="Sports">
+       Sports
+      </button>
+      <button class="chip" data-g="Comedy">
+       Comedy
+      </button>
+      <button class="chip" data-g="Historical">
+       Historical
+      </button>
+     </div>
+    </div>
+    <p aria-live="polite" id="count">
+    </p>
+    <div class="grid">
+     <article class="card" data-author="Eiichiro Oda" data-ch="Chapter 1: ROMANCE DAWN" data-genre="Action" data-syn="One Piece follows Monkey D. Luffy and his pirate crew as they journey across the seas in search of the legendary treasure called the One Piece, aiming to make Luffy the King of the Pirates." data-title="blade of the last dawn ren takashima">
+      <img alt="One Piece" height="600" loading="lazy" src="1.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#e4002b">
+        Action
+       </span>
+       <h3>
+        One Piece
+       </h3>
+       <p class="by">
+        Eiichiro Oda
+       </p>
+       <p class="syn" hidden="">
+        One Piece follows Monkey D. Luffy and his pirate crew as they journey across the seas in search of the legendary treasure called the One Piece, aiming to make Luffy the King of the Pirates.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-01.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="01">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+     
+    <article class="card" data-author="Yuto Suzuki" data-ch="Chapter 1: The Legendary Hit Man" data-genre="Action" data-syn="Taro Sakamoto, a former legendary hitman, has retired to live a peaceful life with his family. But when his past catches up with him, he must fight dangerous assassins while protecting the people he loves." data-title="sakamoto days">
+      <img alt="Cover of Iron Fist Academy" height="600" loading="lazy" src="2.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#e4002b">
+        Action
+       </span>
+       <h3>
+       Sakamoto Days
+       </h3>
+       <p class="by">
+        Yuto Suzuki
+       </p>
+       <p class="syn" hidden="">
+       Taro Sakamoto, a former legendary hitman, has retired to live a peaceful life with his family. But when his past catches up with him, he must fight dangerous assassins while protecting the people he loves.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-02.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="02">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+     
+    <article class="card" data-author="Gege Akutami" data-ch="Chapter 1: Ryomen Sukuna" data-genre="Action" data-syn="Yuji Itadori enters the world of jujutsu sorcerers after swallowing a cursed object. He must battle deadly curses while sharing his body with Ryomen Sukuna, the King of Curses." data-title="jujutsu kaisen">
+  <img alt="Cover of Shadow Courier" height="600" loading="lazy" src="3.jpg" width="400"/>
+  <div class="info">
+    <span class="tag" style="background:#e4002b">
+      Action
+    </span>
+    <h3>
+      Jujutsu Kaisen
+    </h3>
+    <p class="by">
+      Gege Akutami
+    </p>
+    <p class="syn" hidden="">
+      Yuji Itadori battles deadly curses after becoming the vessel of Ryomen Sukuna, the King of Curses.
+    </p>
+    <div class="row">
+      <a class="btn" href="story-03.html">
+        Read Story
+      </a>
+      <button class="btn small like" data-id="03">
+        ♡ Like
+      </button>
+    </div>
+    <div class="row">
+      <button class="btn small tog">
+        Show synopsis
+      </button>
+      <button class="btn small det">
+        Details
+      </button>
+    </div>
+  </div>
+</article>
+     
+<article class="card" data-author="Hiroki Adachi" data-ch="Chapter 1: A Tiny Happenstance" data-genre="Romance" data-syn="Hori, a popular schoolgirl, and Miyamura, a quiet classmate, discover each other's hidden sides and develop an unexpected romance." data-title="horimiya">
+      <img alt="Cover of Horimiya" height="600" loading="lazy" src="4.jpeg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#ff7aa8">
+        Romance
+       </span>
+       <h3>
+        Horimiya
+       </h3>
+       <p class="by">
+        Hiroki Adachi
+       </p>
+       <p class="syn" hidden="">
+        Hori and Miyamura discover each other's hidden sides and develop an unexpected romance.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-04.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="04">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+     
+<article class="card" data-author="Fujita" data-ch="Chapter 1: Narumi and Hirotaka" data-genre="Romance" data-syn="Two childhood friends reunite as adults and discover that dating someone who shares their love for anime, manga, and gaming can be unexpectedly sweet." data-title="wotaku ni koi wa muzukashii">
+      <img alt="Cover of Wotakoi: Love Is Hard for Otaku" height="600" loading="lazy" src="5.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#ff7aa8">
+        Romance
+       </span>
+       <h3>
+        Wotaku ni Koi wa Muzukashii
+       </h3>
+       <p class="by">
+        Fujita
+       </p>
+       <p class="syn" hidden="">
+        Narumi, a fujoshi, and Hirotaka, a gaming otaku, begin a relationship while navigating love and their shared nerdy interests.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-05.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="05">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Shinichi Fukuda" data-ch="Chapter 1: A New School Year" data-genre="Romance" data-syn="Wakana Gojo, a shy boy who makes hina dolls, meets Marin Kitagawa, a cheerful classmate who loves cosplay. Together, they discover friendship, passion, and unexpected romance." data-title="sono bisque doll wa koi o suru">
+      <img alt="Cover of My Dress-Up Darling" height="600" loading="lazy" src="6.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#ff7aa8">
+        Romance
+       </span>
+       <h3>
+        Sono Bisque Doll wa Koi o Suru
+       </h3>
+       <p class="by">
+        Shinichi Fukuda
+       </p>
+       <p class="syn" hidden="">
+        Wakana Gojo and Marin Kitagawa bond over cosplay, discovering friendship, passion, and romance.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-06.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="06">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Kanehito Yamada" data-ch="Chapter 1: The Journey's End" data-genre="Fantasy" data-syn="After defeating the Demon King, the elf mage Frieren begins a new journey to understand humanity, friendship, and the passage of time." data-title="sousou no frieren">
+      <img alt="Cover of Frieren: Beyond Journey's End" height="600" loading="lazy" src="7.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#7b4fd6">
+        Fantasy
+       </span>
+       <h3>
+        Sousou no Frieren
+       </h3>
+       <p class="by">
+        Kanehito Yamada
+       </p>
+       <p class="syn" hidden="">
+        After the Demon King's defeat, Frieren embarks on a journey to understand humans and the meaning of the time they share.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-07.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="07">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Rifujin na Magonote" data-ch="Chapter 1: Jobless Reincarnation" data-genre="Fantasy" data-syn="After dying in his previous life, a jobless man is reincarnated as Rudeus Greyrat in a magical world, determined to live his new life without regrets." data-title="mushoku tensei isekai ittara honki dasu">
+      <img alt="Cover of Mushoku Tensei: Jobless Reincarnation" height="600" loading="lazy" src="8.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#7b4fd6">
+        Fantasy
+       </span>
+       <h3>
+        Mushoku Tensei: Isekai Ittara Honki Dasu
+       </h3>
+       <p class="by">
+        Rifujin na Magonote
+       </p>
+       <p class="syn" hidden="">
+        Reborn as Rudeus Greyrat in a magical world, a former jobless man strives to make the most of his second chance at life.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-08.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="08">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Fuse" data-ch="Chapter 1: The Storm Dragon, Veldora" data-genre="Fantasy" data-syn="After being reincarnated as a slime in a fantasy world, Satoru Mikami gains powerful abilities and builds a peaceful nation where monsters and other races can live together." data-title="tensei shitara slime datta ken">
+      <img alt="Cover of That Time I Got Reincarnated as a Slime" height="600" loading="lazy" src="9.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#7b4fd6">
+        Fantasy
+       </span>
+       <h3>
+        Tensei Shitara Slime datta Ken
+       </h3>
+       <p class="by">
+        Fuse
+       </p>
+       <p class="syn" hidden="">
+        Reborn as a slime named Rimuru, a former human gains incredible powers and builds a nation where different races can coexist.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-09.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="09">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Yukito Ayatsuji" data-ch="Chapter 1: The Curse Begins" data-genre="Horror" data-syn="Koichi Sakakibara transfers to a mysterious class where a strange girl named Mei Misaki is ignored by everyone. As terrifying deaths begin to occur, he uncovers the dark secret behind Class 3-3." data-title="another">
+      <img alt="Cover of Another" height="600" loading="lazy" src="10.webp" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#2b2b2b">
+        Horror
+       </span>
+       <h3>
+        Another
+       </h3>
+       <p class="by">
+        Yukito Ayatsuji
+       </p>
+       <p class="syn" hidden="">
+        Koichi Sakakibara investigates a deadly curse surrounding his classroom and the mysterious girl Mei Misaki.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-10.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="10">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="CLAMP" data-ch="Chapter 1: The Darkness of Night" data-genre="Horror" data-syn="Saya Kisaragi appears to be an ordinary shrine maiden, but she secretly fights terrifying monsters that threaten her peaceful town. As strange events unfold, she begins to uncover a disturbing truth about her life." data-title="blood c">
+      <img alt="Cover of Blood-C" height="600" loading="lazy" src="11.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#2b2b2b">
+        Horror
+       </span>
+       <h3>
+        Blood-C
+       </h3>
+       <p class="by">
+        CLAMP
+       </p>
+       <p class="syn" hidden="">
+        Saya Kisaragi fights monstrous creatures while uncovering the horrifying secrets hidden behind her seemingly peaceful life.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-11.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="11">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Tomoki Izumi" data-ch="Chapter 1: Can You See Them?" data-genre="Horror" data-syn="Miko Yotsuya suddenly gains the ability to see terrifying ghosts everywhere. Instead of running or screaming, she pretends not to see them and tries to survive her everyday life." data-title="mieruko chan">
+      <img alt="Cover of Mieruko-chan" height="600" loading="lazy" src="12.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#2b2b2b">
+        Horror
+       </span>
+       <h3>
+        Mieruko-chan
+       </h3>
+       <p class="by">
+        Tomoki Izumi
+       </p>
+       <p class="syn" hidden="">
+        Miko Yotsuya sees terrifying ghosts but pretends they are not there in hopes of surviving her everyday life.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-12.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="12">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Asano" data-ch="Chapter 1: Madness" data-genre="Sci-Fi" data-syn="Set in the brutal world of Night City, a group of edgerunners fights to survive amid cybernetic enhancements, corporate greed, and the chaos of the cyberpunk underworld." data-title="cyberpunk edgerunners madness">
+      <img alt="Cover of Cyberpunk: Edgerunners Madness" height="600" loading="lazy" src="13.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#00a6c8">
+        Sci-Fi
+       </span>
+       <h3>
+        Cyberpunk: Edgerunners Madness
+       </h3>
+       <p class="by">
+        Asano
+       </p>
+       <p class="syn" hidden="">
+        In Night City, edgerunners struggle to survive a dangerous world ruled by cybernetic technology and powerful corporations.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-13.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="13">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Yoshiyuki Sadamoto" data-ch="Chapter 1: Angel Attack" data-genre="Sci-Fi" data-syn="Shinji Ikari is recruited to pilot a giant biomechanical weapon called Evangelion to defend humanity against mysterious beings known as Angels." data-title="shin seiki evangelion neon genesis evangelion">
+      <img alt="Cover of Neon Genesis Evangelion" height="600" loading="lazy" src="14.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#00a6c8">
+        Sci-Fi
+       </span>
+       <h3>
+        Shin Seiki Evangelion
+       </h3>
+       <p class="by">
+        Yoshiyuki Sadamoto
+       </p>
+       <p class="syn" hidden="">
+        Shinji Ikari pilots a giant Evangelion to protect humanity from mysterious Angels while struggling with his own fears.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-14.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="14">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Yasuhiro Nightow" data-ch="Chapter 1: The $$60 Billion Man" data-genre="Sci-Fi" data-syn="Vash the Stampede is a legendary gunslinger with a massive bounty on his head. Despite his destructive reputation, he strives to protect lives while surviving the dangers of a harsh desert planet." data-title="trigun">
+      <img alt="Cover of Trigun" height="600" loading="lazy" src="15.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#00a6c8">
+        Sci-Fi
+       </span>
+       <h3>
+        Trigun
+       </h3>
+       <p class="by">
+        Yasuhiro Nightow
+       </p>
+       <p class="syn" hidden="">
+        Vash the Stampede, a wanted gunslinger with a mysterious past, tries to protect people on a dangerous desert planet.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-15.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="15">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Kei Sanbe" data-ch="Chapter 1: Flashing Before My Eyes" data-genre="Mystery" data-syn="Satoru Fujinuma possesses an ability that sends him back in time to prevent tragedies. When his mother is murdered, he is sent back to his childhood, where he must solve a series of disappearances to change the future." data-title="boku dake ga inai machi">
+      <img alt="Cover of Boku dake ga Inai Machi" height="600" loading="lazy" src="16.webp" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#1f4e8c">
+        Mystery
+       </span>
+       <h3>
+        Boku dake ga Inai Machi
+       </h3>
+       <p class="by">
+        Kei Sanbe
+       </p>
+       <p class="syn" hidden="">
+        Satoru travels back to his childhood to uncover the truth behind a murder and a series of disappearances.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-16.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="16">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+    
+<article class="card" data-author="Kaiu Shirai" data-ch="Chapter 1: Grace Field House" data-genre="Mystery" data-syn="Emma, Norman, and Ray discover the horrifying truth behind their seemingly perfect orphanage. They must devise an escape plan to save themselves and the other children from a terrifying fate." data-title="yakusoku no neverland">
+      <img alt="Cover of The Promised Neverland" height="600" loading="lazy" src="17.jpg" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#1f4e8c">
+        Mystery
+       </span>
+       <h3>
+        Yakusoku no Neverland
+       </h3>
+       <p class="by">
+        Kaiu Shirai
+       </p>
+       <p class="syn" hidden="">
+        Emma, Norman, and Ray uncover the dark secret of their orphanage and plan a daring escape to save the children.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-17.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="17">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Naoki Urasawa" data-ch="Chapter 1: Herr Dr. Tenma" data-genre="Mystery" data-syn="Dr. Kenzo Tenma saves a young boy's life, only to discover years later that the boy has become a dangerous serial killer. Haunted by his decision, Tenma sets out to stop the monster he once saved." data-title="monster naoki urasawa">
+      <img alt="Cover of Monster" height="600" loading="lazy" src="18.png" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#1f4e8c">
+        Mystery
+       </span>
+       <h3>
+        Monster
+       </h3>
+       <p class="by">
+        Naoki Urasawa
+       </p>
+       <p class="syn" hidden="">
+        Dr. Tenma hunts a ruthless killer whose life he once saved, uncovering a disturbing conspiracy along the way.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-18.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="18">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Honobu Yonezawa" data-ch="Chapter 1: The Return of the Prodigal Son" data-genre="Slice of Life" data-syn="Houtarou Oreki joins his school's Classic Literature Club and, alongside the curious Eru Chitanda, solves everyday mysteries while uncovering forgotten secrets." data-title="hyouka honobu yonezawa">
+      <img alt="Cover of Hyouka" height="600" loading="lazy" src="19.webp" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#f2a900">
+        Slice of Life
+       </span>
+       <h3>
+        Hyouka
+       </h3>
+       <p class="by">
+        Honobu Yonezawa
+       </p>
+       <p class="syn" hidden="">
+        Houtarou Oreki and Eru Chitanda investigate everyday mysteries and uncover secrets through their school's Classic Literature Club.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-19.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="19">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     
+<article class="card" data-author="Coolkyousinnjya" data-ch="Chapter 1: The Strongest Maid in History, Tohru!" data-genre="Slice of Life" data-syn="Kobayashi's ordinary life changes when a dragon named Tohru becomes her maid. Together with other dragons, they experience hilarious and heartwarming adventures in the human world." data-title="kobayashi san chi no maid dragon">
+      <img alt="Cover of Miss Kobayashi's Dragon Maid" height="600" loading="lazy" src="20.webp" width="400"/>
+      <div class="info">
+       <span class="tag" style="background:#f2a900">
+        Slice of Life
+       </span>
+       <h3>
+        Kobayashi-san Chi no Maid Dragon
+       </h3>
+       <p class="by">
+        Coolkyousinnjya
+       </p>
+       <p class="syn" hidden="">
+        Kobayashi's quiet life becomes chaotic when Tohru, a dragon who takes the form of a maid, moves in with her.
+       </p>
+       <div class="row">
+        <a class="btn" href="story-20.html">
+         Read Story
+        </a>
+        <button class="btn small like" data-id="20">
+         ♡ Like
+        </button>
+       </div>
+       <div class="row">
+        <button class="btn small tog">
+         Show synopsis
+        </button>
+        <button class="btn small det">
+         Details
+        </button>
+       </div>
+      </div>
+     </article>
+
+     <article class="card" data-author="Kyoto Animation" data-ch="Episode 1: That Girl's Cute as a Button" data-genre="Slice of Life" data-syn="Tamako Kitashirakawa helps her family run a mochi shop in the Usagiyama Shopping District. Her everyday life takes an unexpected turn when she meets Dera, a talking bird searching for a bride for his prince." data-title="tamako market kyoto animation">
+  <img alt="Cover of Tamako Market" height="600" loading="lazy" src="21.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#f2a900">
+    Slice of Life
+   </span>
+   <h3>
+    Tamako Market
+   </h3>
+   <p class="by">
+    Kyoto Animation
+   </p>
+   <p class="syn" hidden="">
+    Tamako Kitashirakawa enjoys life helping at her family's mochi shop. Everything becomes more unusual when Dera, a talking bird with a royal mission, arrives and brings unexpected adventures to the shopping district.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-30.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="30">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+    <article class="card" data-author="George Morikawa" data-ch="Round 1: The First Step" data-genre="Sports" data-syn="Ippo Makunouchi, a shy high school student, discovers boxing after being rescued from bullies by boxer Mamoru Takamura. Inspired to become stronger, Ippo begins his journey toward becoming a professional boxer." data-title="hajime no ippo george morikawa">
+  <img alt="Cover of Hajime no Ippo" height="600" loading="lazy" src="22.jpg" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#2e9e4f">
+    Sports
+   </span>
+   <h3>
+    Hajime no Ippo
+   </h3>
+   <p class="by">
+    George Morikawa
+   </p>
+   <p class="syn" hidden="">
+    Ippo Makunouchi discovers boxing after meeting professional boxer Mamoru Takamura. Through intense training, powerful rivals, and challenging matches, he works toward becoming a champion and discovering what it means to be strong.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-22.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="22">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+     <article class="card" data-author="Takehiko Inoue" data-ch="Chapter 1: Sakuragi and Rukawa" data-genre="Sports" data-syn="Hanamichi Sakuragi, a hotheaded high school student, joins the Shohoku basketball team to impress a girl. What begins as a crush-driven decision turns into a passionate journey of teamwork, rivalry, and basketball." data-title="slam dunk takehiko inoue">
+  <img alt="Cover of Slam Dunk" height="600" loading="lazy" src="23.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#2e9e4f">
+    Sports
+   </span>
+   <h3>
+    Slam Dunk
+   </h3>
+   <p class="by">
+    Takehiko Inoue
+   </p>
+   <p class="syn" hidden="">
+    Hanamichi Sakuragi joins Shohoku High's basketball team hoping to impress Haruko Akagi. As he trains and competes alongside talented teammates, he discovers his potential and develops a genuine love for basketball.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-23.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="23">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+     <article class="card" data-author="Haruichi Furudate" data-ch="Chapter 1: End and Beginning" data-genre="Sports" data-syn="Shoyo Hinata dreams of becoming a great volleyball player despite his short stature. After joining Karasuno High, he teams up with his former rival Tobio Kageyama as they work together to lead their team to the top." data-title="haikyuu haruichi furudate">
+  <img alt="Cover of Haikyu!!" height="600" loading="lazy" src="24.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#2e9e4f">
+    Sports
+   </span>
+   <h3>
+    Haikyu!!
+   </h3>
+   <p class="by">
+    Haruichi Furudate
+   </p>
+   <p class="syn" hidden="">
+    Inspired by a volleyball star, Shoyo Hinata joins Karasuno High's volleyball team. He must learn to work with his talented rival Tobio Kageyama and help their teammates overcome powerful opponents on the road to the national championship.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-24.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="24">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+     <article class="card" data-author="Shuichi Asou" data-ch="Chapter 1: The Disaster of a Normal Person" data-genre="Comedy" data-syn="Kusuo Saiki is a high school student born with powerful psychic abilities. Despite being able to read minds, teleport, and manipulate reality, he only wants a peaceful, ordinary life—but his eccentric classmates constantly get in the way." data-title="saiki kusuo no psi nan shuichi asou">
+  <img alt="Cover of The Disastrous Life of Saiki K." height="600" loading="lazy" src="25.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#ff8a1f">
+    Comedy
+   </span>
+   <h3>
+    Saiki Kusuo no Ψ-nan
+   </h3>
+   <p class="by">
+    Shuichi Asou
+   </p>
+   <p class="syn" hidden="">
+    Kusuo Saiki has extraordinary psychic powers but wants nothing more than to live a normal, quiet life. Unfortunately, his strange classmates and their ridiculous problems turn every school day into a hilarious disaster.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-25.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="25">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+     <article class="card" data-author="Satoshi Wagahara" data-ch="Chapter 1: The Devil Arrives in Sasazuka" data-genre="Comedy" data-syn="After being defeated by the Hero, Demon Lord Satan escapes to modern-day Tokyo, where he takes a part-time job at a fast-food restaurant. As he adjusts to ordinary human life, unexpected enemies and the Hero Emilia follow him into his new world." data-title="hataraku maou sama satoshi wagahara">
+  <img alt="Cover of The Devil Is a Part-Timer!" height="600" loading="lazy" src="26.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#ff8a1f">
+    Comedy
+   </span>
+   <h3>
+    Hataraku Maou-sama!
+   </h3>
+   <p class="by">
+    Satoshi Wagahara
+   </p>
+   <p class="syn" hidden="">
+    The Demon Lord Satan ends up in modern Tokyo after losing a battle in another world. With little magic and no money, he gets a part-time job at a fast-food restaurant, but his new life becomes chaotic when the Hero Emilia appears.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-26.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="26">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+    <article class="card" data-author="Natsume Akatsuki" data-ch="Chapter 1: A Blessing for This Wonderful World!" data-genre="Comedy" data-syn="After dying an embarrassing death, Kazuma Satou is offered a chance to be reborn in a fantasy world. He chooses the goddess Aqua to accompany him, but their adventures quickly turn into hilarious disasters as they team up with an explosive mage and a crusader who loves taking damage." data-title="kono subarashii sekai ni shukufuku wo natsume akatsuki">
+  <img alt="Cover of Kono Subarashii Sekai ni Shukufuku wo!" height="600" loading="lazy" src="27.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#ff8a1f">
+    Comedy
+   </span>
+   <h3>
+    Kono Subarashii Sekai ni Shukufuku wo!
+   </h3>
+   <p class="by">
+    Natsume Akatsuki
+   </p>
+   <p class="syn" hidden="">
+    Kazuma Satou is reincarnated into a fantasy world alongside the goddess Aqua. Together with the powerful but explosion-obsessed Megumin and the eccentric crusader Darkness, he takes on quests that rarely go according to plan.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-27.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="27">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+     <article class="card" data-author="Makoto Yukimura" data-ch="Chapter 1: Somewhere Not Here" data-genre="Historical" data-syn="Thorfinn grows up seeking revenge against Askeladd, the man who killed his father. Set during the Viking Age, his journey through war, betrayal, and violence leads him to question the meaning of strength and discover a different path toward peace." data-title="vinland saga makoto yukimura">
+  <img alt="Cover of Vinland Saga" height="600" loading="lazy" src="28.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#8a5a2b">
+    Historical
+   </span>
+   <h3>
+    Vinland Saga
+   </h3>
+   <p class="by">
+    Makoto Yukimura
+   </p>
+   <p class="syn" hidden="">
+    After witnessing his father's death, Thorfinn joins the Vikings led by Askeladd, hoping to earn a chance to avenge him. Amid brutal battles and political struggles, he begins a journey that challenges his ideas about revenge, violence, and what it truly means to be a warrior.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-28.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="28">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+</article>
+     <article class="card" data-author="Yasuhisa Hara" data-ch="Chapter 1: The Boy and the Sky" data-genre="Historical" data-syn="During China's Warring States period, Xin dreams of becoming a Great General under the Heavens. Alongside King Ying Zheng, he fights through brutal wars and political struggles in the quest to unite China." data-title="kingdom yasuhisa hara">
+  <img alt="Cover of Kingdom" height="600" loading="lazy" src="29.webp" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#8a5a2b">
+    Historical
+   </span>
+   <h3>
+    Kingdom
+   </h3>
+   <p class="by">
+    Yasuhisa Hara
+   </p>
+   <p class="syn" hidden="">
+    Set during China's Warring States period, the story follows Xin, a war orphan determined to become a Great General, and Ying Zheng, the young king who seeks to unify China. Through fierce battles, strategy, and ambition, they pursue their extraordinary dreams.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-29.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="29">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+     <article class="card" data-author="Manglobe" data-ch="Episode 1: Tempestuous Temperaments" data-genre="Historical" data-syn="Fuu, a young waitress, recruits two skilled swordsmen, Mugen and Jin, to help her find a mysterious samurai who smells of sunflowers. Their journey through Edo-period Japan is filled with sword fights, comedy, and unexpected encounters." data-title="samurai champloo manglobe">
+  <img alt="Cover of Samurai Champloo" height="600" loading="lazy" src="30.jpg" width="400"/>
+  <div class="info">
+   <span class="tag" style="background:#8a5a2b">
+    Historical
+   </span>
+   <h3>
+    Samurai Champloo
+   </h3>
+   <p class="by">
+    Manglobe
+   </p>
+   <p class="syn" hidden="">
+    In an alternative version of Edo-era Japan, Fuu sets off on a journey to find a samurai who smells of sunflowers. She travels with Mugen, a wild and unpredictable swordsman, and Jin, a calm and disciplined ronin, leading to action-packed and often hilarious adventures.
+   </p>
+   <div class="row">
+    <a class="btn" href="story-30.html">
+     Read Story
+    </a>
+    <button class="btn small like" data-id="30">
+     ♡ Like
+    </button>
+   </div>
+   <div class="row">
+    <button class="btn small tog">
+     Show synopsis
+    </button>
+    <button class="btn small det">
+     Details
+    </button>
+   </div>
+  </div>
+ </article>
+    </div>
+   </section>
+  </main>
+  <dialog id="dlg">
+   <h2 id="dt">
+   </h2>
+   <p class="by" id="da">
+   </p>
+   <p>
+    <strong id="dg">
+    </strong>
+   </p>
+   <p id="ds">
+   </p>
+   <p id="dc">
+   </p>
+   <form method="dialog">
+    <button class="btn small">
+     Close
+    </button>
+   </form>
+  </dialog>
+  <footer>
+   <p>
+    Inkwell Manga Library · A student project for ITE 1. All stories are original fiction.
+   </p>
+  </footer>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
